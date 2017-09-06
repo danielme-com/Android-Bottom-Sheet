@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/grid_separation"
+        android:paddingTop="@dimen/grid_separation">
+
+        <TextView
+            android:id="@+id/youtube"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_marginBottom="@dimen/grid_separation"
+            android:drawableTop="@drawable/youtube_big"
+            android:text="@string/youtube" />
+
+        <TextView
+            android:id="@+id/lastfm"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_marginBottom="@dimen/grid_separation"
+            android:layout_toRightOf="@+id/youtube"
+            android:drawableTop="@drawable/lastfm_big"
+            android:text="@string/title_lastfm" />
+
+        <TextView
+            android:id="@+id/google"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_marginBottom="@dimen/grid_separation"
+            android:layout_toRightOf="@+id/lastfm"
+            android:drawableTop="@drawable/google_big"
+            android:text="@string/google" />
+
+        <TextView
+            android:id="@+id/musicbrainz"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_below="@+id/youtube"
+            android:drawableTop="@drawable/musicbrainz_big"
+            android:text="@string/musicbrainz" />
+
+        <TextView
+            android:id="@+id/amazon"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_below="@+id/lastfm"
+            android:layout_toRightOf="@id/musicbrainz"
+            android:drawableTop="@drawable/amazon_big"
+            android:text="@string/amazon" />
+
+        <TextView
+            android:id="@+id/play"
+            style="@style/AppTheme.BottomSheetGridItem"
+            android:layout_below="@id/google"
+            android:layout_toRightOf="@id/amazon"
+            android:drawableTop="@drawable/play_big"
+            android:text="@string/google_play" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</ScrollView>

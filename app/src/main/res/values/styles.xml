@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+    </style>
+
+    <style name="AppTheme.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.BottomSheetListItem">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bottom_selector</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/activity_horizontal_margin_double</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/bottom_font</item>
+    </style>
+
+    <style name="AppTheme.BottomSheetGridItem">
+        <item name="android:clickable">true</item>
+        <item name="layout_widthPercent">@fraction/third</item>
+        <item name="android:background">@drawable/bottom_selector</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/padding_text_image_top</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/bottom_font</item>
+    </style>
+
+
+</resources>

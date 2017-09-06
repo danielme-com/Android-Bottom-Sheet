@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Bottom Sheet Menu</string>
+    <string name="youtube">Youtube</string>
+    <string name="title_lastfm">Lastfm</string>
+    <string name="google">Google</string>
+    <string name="musicbrainz">MusicBrainz</string>
+    <string name="amazon">Amazon</string>
+    <string name="google_play">Google Play</string>
+    <string name="list">LIST</string>
+    <string name="grid">GRID</string>
+</resources>
